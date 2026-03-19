@@ -1,0 +1,4 @@
+baseURL = 'https://Allstareyes.github.io/'
+locale = 'en-us'
+title = '我的学习笔记'
+theme = 'ananke'

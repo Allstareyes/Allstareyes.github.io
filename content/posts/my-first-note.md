@@ -1,0 +1,7 @@
++++
+date = '2026-03-19T12:45:32+08:00'
+draft = false
+title = 'My First Note'
++++
+
+在用ds教的方法学习做博客。
