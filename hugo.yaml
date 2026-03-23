@@ -1,0 +1,59 @@
+baseURL: https://allstareyes.github.io/
+title: 一个仓库
+theme: jijian
+
+defaultContentLanguage: zh-cn
+languageCode: zh-cn
+timeZone: "Asia/Shanghai"
+
+params:
+  env: production
+  description: "站点描述"
+ 
+
+  # 阅读相关
+  ShowReadingTime: false              # 显示阅读时长
+  ShowWordCount: true                 # 显示字数统计
+  readingSpeed: 200                   # 阅读速度（字/分钟）
+  
+  # 导航与交互
+  ShowPostNavLinks: true              # 显示上下篇导航
+  ShowBreadCrumbs: true               # 显示面包屑导航
+  ShowRssButtonInSectionTermList: true # 在列表页显示 RSS 按钮
+  ShowPageNums: true                  # 分页显示页码
+
+  ShowToc: true                       # 显示目录（默认 true，不配置也会显示）
+  TocOpen: true                       # 目录默认展开（默认 true，不配置也会展开）
+  TocPosition: auto                   # 目录位置：left / right / auto
+  tocHover: false                     # 启用目录悬浮模式
+  tocHoverDelay: 200                  # 目录悬浮延迟（毫秒）
+  tocHideDelay: 2000                  # 目录隐藏延迟（毫秒）
+  UseHugoToc: true                    # 使用 Hugo 原生目录
+
+  defaultTheme: auto                  # 默认主题：light / dark / auto
+  disableThemeToggle: false           # 禁用主题切换按钮
+  disableLangToggle: false            # 禁用语言切换按钮
+  disableScrollToTop: false           # 禁用返回顶部按钮
+  disableSpecial1stPost: false        # 禁用首篇特殊样式
+  displayFullLangName: true           # 显示完整语言名称
+  DateFormat: 2006年01月02日          # 日期格式
+
+  custom_css: ["css/custom.css"]
+
+menu:
+  main:
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 10
+    - identifier: categories
+      name: 分类
+      url: /categories/
+      weight: 12
+      parent: posts
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 13
+      parent: posts
+

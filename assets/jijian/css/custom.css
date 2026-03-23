@@ -1,0 +1,18 @@
+/* 让长单词、URL 自动换行 */
+article .prose p,
+article .prose a {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* 增加段落之间的间距，让阅读更舒适 */
+article .prose p {
+  margin-bottom: 1.25em;
+}
+
+/* 代码块换行（如果有长代码） */
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
