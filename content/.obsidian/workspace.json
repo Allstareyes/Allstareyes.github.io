@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "af4ce0af9f34b8b0",
+        "id": "e217cc06c60251c0",
         "type": "tabs",
         "children": [
           {
-            "id": "d4cdbb832ba47220",
+            "id": "614e3eb796bfe485",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "a7c47a0371c185b4",
@@ -90,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "posts/暗器飞针练习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "暗器飞针练习 的反向链接列表"
             }
           },
           {
@@ -108,11 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "posts/暗器飞针练习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "暗器飞针练习 的出链列表"
             }
           },
           {
@@ -150,12 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "posts/暗器飞针练习.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "暗器飞针练习 的大纲"
             }
           }
         ]
@@ -176,8 +179,10 @@
       "bases:新建数据库": false
     }
   },
-  "active": "d4cdbb832ba47220",
+  "active": "614e3eb796bfe485",
   "lastOpenFiles": [
-    "posts/first.md"
+    "posts/刚开始写作要注意什么.md",
+    "posts/first.md",
+    "posts/暗器飞针练习.md"
   ]
 }
