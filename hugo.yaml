@@ -8,7 +8,7 @@ timeZone: "Asia/Shanghai"
 
 params:
   env: production
-  description: "站点描述"
+  description: "存点乱七八糟的"
  
 
   # 阅读相关
@@ -24,11 +24,11 @@ params:
 
   ShowToc: true                       # 显示目录（默认 true，不配置也会显示）
   TocOpen: true                       # 目录默认展开（默认 true，不配置也会展开）
-  TocPosition: auto                   # 目录位置：left / right / auto
+  TocPosition: right                  # 目录位置：left / right / auto
   tocHover: false                     # 启用目录悬浮模式
   tocHoverDelay: 200                  # 目录悬浮延迟（毫秒）
   tocHideDelay: 2000                  # 目录隐藏延迟（毫秒）
-  UseHugoToc: true                    # 使用 Hugo 原生目录
+  UseHugoToc: false                   # 使用 Hugo 原生目录
 
   defaultTheme: auto                  # 默认主题：light / dark / auto
   disableThemeToggle: false           # 禁用主题切换按钮
@@ -39,6 +39,20 @@ params:
   DateFormat: 2006年01月02日          # 日期格式
 
   custom_css: ["css/custom.css"]
+
+  comments: true                      # 全局启用评论
+
+  giscus:
+    repo: "Allstareyes/Allstareyes.github.io"                 # 仓库名称
+    repoId: "R_kgDORrAtMQ"                 # 仓库 ID
+    category: "Announcements"         # Discussion 分类
+    categoryId: "DIC_kwDORrAtMc4C5I1m"           # 分类 ID
+    mapping: pathname                 # 映射方式
+    reactionsEnabled: 1               # 启用反应
+    emitMetadata: 0                   # 发送元数据
+    inputPosition: bottom                # 输入框位置：top / bottom
+    theme: preferred_color_scheme     # 主题
+    lang: zh-CN                       # 语言
 
 menu:
   main:
@@ -56,4 +70,7 @@ menu:
       url: /tags/
       weight: 13
       parent: posts
-
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 20

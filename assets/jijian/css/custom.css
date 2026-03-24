@@ -16,3 +16,7 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+
+.post-content p {
+  text-indent: 2em;  /* 缩进两个汉字字符宽度 */
+}
