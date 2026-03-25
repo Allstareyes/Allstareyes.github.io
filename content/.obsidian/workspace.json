@@ -21,8 +21,23 @@
               "icon": "lucide-file",
               "title": "20260324"
             }
+          },
+          {
+            "id": "bbef0704cdc04478",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/20260325.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260325"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "739d313de813b4d5",
@@ -35,12 +50,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/20260324.md",
+                "file": "posts/20260325.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260324"
+              "title": "20260325"
             }
           }
         ]
@@ -62,7 +77,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -205,18 +220,19 @@
       "bases:新建数据库": false
     }
   },
-  "active": "614e3eb796bfe485",
+  "active": "bbef0704cdc04478",
   "lastOpenFiles": [
+    "posts/20260324.md",
+    "posts/刚开始写作要注意什么.md",
+    "posts/暗器飞针练习.md",
+    "posts/20260325.md",
     "search/_index.md",
     "search/新建文本文档.txt",
     "search",
     "新建文件夹",
     "~快捷方式.tmp",
     "新快捷方式.lnk",
-    "posts/暗器飞针练习.md",
-    "posts/20260324.md",
     "未命名",
-    "posts/刚开始写作要注意什么.md",
     "posts/first.md"
   ]
 }
